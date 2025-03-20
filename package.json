@@ -1,0 +1,22 @@
+{
+  "name": "jfkfilescraper",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Klutch",
+  "license": "MIT",
+  "description": "A tool to download the released JFK files",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "fs-extra": "^10.1.0",
+    "path": "^0.12.7",
+    "pdf-parse": "^1.1.1",
+    "readline-sync": "^1.4.10",
+    "tesseract.js": "^6.0.0"
+  }
+}
